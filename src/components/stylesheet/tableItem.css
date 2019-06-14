@@ -1,0 +1,130 @@
+.cartItem h1 {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 25px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.message {
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  color: red;
+  font-size: 22px;
+  margin-top: 200px;
+}
+.message button {
+  background: #f2f2f2;
+  border: thin solid #fff;
+  padding: 10px;
+  position: relative;
+  top: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #333333;
+  display: block;
+  width: 220px;
+  margin: auto;
+}
+.message button:hover {
+  border: thin solid red;
+}
+
+table {
+  width: 800px;
+  margin: auto;
+  font-family: "Dosis", sans-serif;
+  position: relative;
+}
+table thead {
+  background: #31a9b5;
+  color: #fff;
+}
+table thead th {
+  text-transform: uppercase;
+}
+table tbody {
+  background: #fff;
+}
+table tbody tr td {
+  width: 150px;
+  color: #31a9b5;
+  font-weight: 600;
+}
+table tbody tr td .addButton {
+  margin: 0 5px;
+  padding-top: 4px;
+}
+table tbody tr td img {
+  position: relative;
+  top: -4px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+table tbody tr td img:hover {
+  opacity: 1;
+  transition: all linear 0.2s;
+  transform: scale(1.1, 1.1);
+}
+table tr td, table tr th {
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+table tr td {
+  padding: 15px;
+  background: #fff;
+  color: #ff0000;
+  border: thin solid #f2f2f2;
+  text-transform: capitalize;
+}
+table ul {
+  position: absolute;
+  right: 0;
+  margin: 20px 0;
+}
+table ul li {
+  list-style: none;
+  text-align: right;
+  font-weight: 600;
+}
+
+.tableButton {
+  width: 510px;
+  margin: auto;
+  margin-top: 100px;
+}
+.tableButton button {
+  font-family: "Dosis", sans-serif;
+  margin: 10px;
+  background: #31a9b5;
+  border: none;
+  padding: 7px 10px;
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.8;
+  text-transform: capitalize;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.tableButton button:hover {
+  opacity: 1;
+  transition: all linear 0.2s;
+}
+
+select {
+  background: none;
+  border: thin solid #ccc;
+  padding: 4px 12px;
+  color: #333;
+  float: left;
+  margin: 2px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=tableItem.css.map */

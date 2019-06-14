@@ -1,0 +1,55 @@
+.orderConfirm {
+  width: 600px;
+  margin: auto;
+}
+.orderConfirm h1, .orderConfirm h2, .orderConfirm p, .orderConfirm h3 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.orderConfirm .order_Details {
+  width: 100%;
+  background: #f2f2f2;
+  padding: 20px;
+  margin: 20px 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  opacity: 0.8;
+  box-shadow: 3px 4px 2px 0px #d2d2d2;
+  cursor: pointer;
+}
+.orderConfirm .order_Details:hover {
+  transition: all linear 0.2s;
+  opacity: 1;
+  transform: scale(1.1, 1.1);
+}
+.orderConfirm .order_Details h2 {
+  font-size: 18px;
+}
+.orderConfirm .order_Details li {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  color: #333;
+  list-style: none;
+  display: flex;
+  margin: 10px;
+}
+.orderConfirm .order_Details p {
+  color: red;
+  width: 100px;
+  margin: 0 5px;
+  text-align: left;
+}
+.orderConfirm .order_Details span {
+  color: #333;
+  margin: 0 10px;
+}
+.orderConfirm h3 {
+  color: red;
+  text-transform: uppercase;
+  font-size: 2.1em;
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=orderConfirm.css.map */

@@ -1,0 +1,122 @@
+.productView{
+  width: 1000px;
+  margin:auto;
+  height: 360px;
+  z-index: 5;
+  padding:5px 10px;
+  h1{
+    font-family: "Dosis", sans-serif;
+    text-transform: capitalize;
+    margin-left: 20px;
+  }
+  .cross{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+  }
+  .content{
+    select{
+      color: #31a9b5;
+      font-size: 14px;
+      line-height: 50px;
+    }
+  }
+  .cartView{
+    display: flex;
+    margin-top: 30px;
+  }
+  .cartProperty{
+    margin-left: 50px;
+     }
+  h3,p{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    color: #333;
+  }
+  p{
+    font-size: 18px;
+    margin:13px 0;
+    span{
+      margin-left: 5px;
+      color: #31a9b5;
+      text-transform: capitalize;
+    }
+    div{
+      width: 60px;
+      margin-top: 5px;
+    }
+    select{
+      width: 100px;
+      padding: 7px 10px;
+    }
+  }
+  h3{
+    color: #333;
+  }
+  button{
+    padding: 10px 40px;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    position: relative;
+    top: 15px;
+    color: #666;
+    &:first-child{
+      margin-right: 10px;
+    }
+    &:hover{
+      background: #31a9b5;
+      color: #fff;
+      border: none;
+      transition: all linear 0.2s;
+    }
+  }
+  .band{
+    width: 100%;
+    height: 2px;
+    background:#f2f2f2;
+    position: relative;
+    top: 10px;
+  }
+  .cartImage{
+    width: 300px;
+    box-shadow: 0px 0 6px 0px black;
+    margin:0 25px;
+  }
+  .rating{
+    background: green;
+    -webkit-border-radius: 10px;
+    padding: 5px 15px;
+    color: #fff;
+    margin-right: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }
+  .description{
+    margin:50px 0;
+    background: #e9e9e9;
+    padding: 20px;
+    padding-bottom: 40px;
+    p{
+      color: #666;
+      font-weight: 500;
+    }
+    ul{
+      margin-left: 2px;
+      li{
+        margin-top: 5px;
+        font-family: "Dosis", sans-serif;
+        font-size: 16px;
+        list-style: disc;
+        display: flex;
+        ul{
+          margin: 0 50px;
+          &:first-child{
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

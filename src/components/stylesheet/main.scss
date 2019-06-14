@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #fff;
+}
+
+
+.App{
+  position: relative;
+  header{
+    width: 100%;
+    height: 5px;
+    background: #31a9b5;
+  }
+  .breadCrumb{
+    width: 90%;
+    //border-top: thin solid #ccc;
+    border-bottom: thin solid #e2e2e2;
+    margin: auto;
+    margin-top: 50px;
+   // background: #f9f9f9;
+    font-family: Dosis;
+    display: flex;
+    .breadcrumbs{
+      margin: 5px;
+      .bc{
+        padding:0 4px;
+        color: #31a9b5;
+        float: left;
+        a{
+          color: #31a9b5;
+          text-decoration: none;
+          margin: 5px;
+          &:hover{
+            text-decoration: underline;
+            transition: all linear 0.1s;
+            font-weight: 600;
+          }
+        }
+        span{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .cart{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+  }
+  .cartcontainer{
+    position:relative;
+    top: 30px;
+  }
+}
+::-webkit-scrollbar {
+  width: 5px;
+  cursor: pointer;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d2d2d2 ;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #31a9b5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #31a9d2;
+}

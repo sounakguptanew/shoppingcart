@@ -1,0 +1,187 @@
+.checkOut {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.checkOut > div {
+  display: flex;
+  justify-content: space-around;
+}
+.checkOut .billing {
+  width: 700px;
+}
+.checkOut .itemDetails {
+  position: relative;
+  top: 36px;
+  height: 438px !important;
+}
+.checkOut .itemDetails p {
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #31a9b5;
+  font-weight: 600;
+}
+.checkOut .orderitem {
+  width: 300px;
+  height: 350px;
+  margin-top: 30px;
+  border: thin solid #ccc;
+}
+.checkOut .orderitem table {
+  width: 100%;
+  font-size: 12px;
+  margin-left: -1px;
+}
+.checkOut .orderitem table thead th {
+  width: 10px;
+  margin: 0px;
+  padding: 0px;
+  background: #d2d2d2;
+  border: thin solid #ccc;
+  color: #333;
+}
+.checkOut .orderitem table td {
+  color: #31a9b5;
+}
+.checkOut .orderitem h3 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.checkOut .orderitem .orderItemDetails {
+  margin-top: 35px;
+}
+.checkOut .orderitem .orderItemDetails ul {
+  margin-left: 20px;
+  margin-top: 30px;
+  position: relative;
+}
+.checkOut .orderitem .orderItemDetails ul li {
+  list-style: none;
+  display: flex;
+  margin-top: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  color: #31a9b5;
+}
+.checkOut .orderitem .orderItemDetails ul li p {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  width: 200px;
+  color: #333;
+}
+.checkOut .orderitem .orderItemDetails ul .placeHolder {
+  position: absolute;
+  right: 0px;
+}
+.checkOut .check {
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+}
+.checkOut .check input[type=checkbox] {
+  margin-left: -150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+  position: relative;
+}
+.checkOut .check span {
+  margin-top: 15px;
+  margin-left: -145px;
+}
+.checkOut h1 {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  color: #666;
+}
+
+legend {
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #666;
+  margin-left: 10px;
+}
+
+.billingForm {
+  width: 100%;
+  margin: auto;
+  font-family: "Dosis", sans-serif;
+  padding: 20px 0;
+}
+.billingForm .placeOrder {
+  width: 200px;
+  padding: 15px 0;
+  text-transform: capitalize;
+  position: absolute;
+  right: 120px;
+  bottom: -30px;
+  margin-bottom: 60px;
+  background: #31a9b5;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.billingForm .placeOrder:disabled {
+  color: #666;
+  border: none;
+  opacity: 0.7;
+  background: #ccc;
+}
+.billingForm ul li {
+  list-style: none;
+}
+.billingForm label {
+  display: flex;
+  margin: 10px;
+}
+.billingForm p {
+  width: 100px;
+  font-weight: 600;
+  color: #31a9b5;
+  padding: 10px;
+}
+.billingForm input {
+  width: 320px;
+  padding: 5px;
+  border: thin solid #e2e2e2;
+}
+.billingForm input:focus {
+  border: thin solid #31a9b5;
+}
+.billingForm input:hover {
+  border: thin solid #31a9b5;
+  transition: all linear 0.2s;
+}
+.billingForm button {
+  background: #31a9b5;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  font-weight: 600;
+  position: relative;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.billingForm button:hover {
+  transition: all linear 0.1s;
+  box-shadow: 0 0 4px 1px #0a5e67;
+}
+.billingForm .errors {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: red;
+}
+
+/*# sourceMappingURL=billingForm.css.map */
